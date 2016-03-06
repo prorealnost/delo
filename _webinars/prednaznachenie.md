@@ -1,0 +1,4 @@
+---
+title: "Предназначение"
+slug: prednaznachenie
+---

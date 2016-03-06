@@ -6,3 +6,15 @@ exclude:
   - package.json
   - README.md
 metrika: 35781275
+
+collections:
+  webinars:
+    output: true
+    permalink: /webinar/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: webinars
+    values:
+      layout: listbuilder-webinar

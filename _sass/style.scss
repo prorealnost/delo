@@ -2,10 +2,59 @@
 
 $primarycolor: #7044BD;
 $btn-primary-bg: $primarycolor;
-
+$zoom: 1.44;
 
 @import "bootstrap";
 @import "paper";
+
 @import "colors";
 @import "flex-video";
 @import "animate";
+
+@mixin default-font {
+  font-size: 19px;
+  line-height: 1.7;
+  font-weight: normal;
+}
+
+body {
+  @include default-font;
+}
+
+#header {
+  padding: 24px 0;
+
+  font-weight: 400;
+  font-size: 14px * $zoom;
+  letter-spacing: 0.5px;
+  line-height: 16px * $zoom;
+
+  img {
+    width: 180px;
+    height: auto;
+  }
+
+  p {
+    padding-top: 20px;
+  }
+}
+
+#footer {
+  background: #000000;
+  font-family: $font-family-sans-serif;
+  font-weight: 400;
+  font-size: 14px * $zoom;
+  color: #A7A7A7;
+  letter-spacing: 0.5px;
+  line-height: 16px * $zoom;
+  margin: 0;
+  padding: 20px;
+
+  a {
+    color: #A7A7A7;
+  }
+
+  p {
+    margin: 0;
+  }
+}

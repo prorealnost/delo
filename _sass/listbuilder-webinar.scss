@@ -1,0 +1,162 @@
+@mixin default-font {
+  font-size: 19px;
+  line-height: 1.7;
+  font-weight: normal;
+}
+
+.separator {
+  margin: 50px auto;
+  display: block;
+}
+
+#hero {
+  background-color: #1ea1ed;
+  color: white;
+
+  h1.subheadline {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    color: #bae6ff;
+    margin: 50px 0 0 0;
+    display: block;
+  }
+  h1.primary {
+    font-weight: 900;
+    font-size: 60px;
+    color: #fefefe;
+    line-height: 60px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  p {
+    margin-bottom: 30px;
+  }
+
+  .host {
+    float: right;
+    width: auto;
+    margin: 20px 0 20px 20px;
+    white-space: nowrap;
+    text-align: center;
+    width: 200px;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      padding: 5px;
+      background-color: #F5F5F6;
+      vertical-align: middle;
+      width: 200px;
+      height: 200px;
+    }
+    .title {
+      margin: 5px auto;
+      padding: 0;
+      font-size: 14px;
+      line-height: 16px;
+      font-weight: 600;
+      color: #bae5ff;
+      text-align: center;
+    }
+    .name {
+      margin: 5px auto 0 auto;
+      padding: 0;
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 700;
+      color: #faffff;
+      text-align: center;
+    }
+  }
+}
+
+#main {
+  margin: 40px 0;
+
+  .left {
+    margin-top: 10px;
+
+    p.date {
+      text-align: center;
+    }
+
+    p.length {
+      text-align: center;
+      margin-top: 1em;
+    }
+  }
+
+  .dateholder {
+    width: 123px;
+    height: 127px;
+    background: url('/images/calendar-bg.png') left bottom no-repeat;
+    margin: auto;
+
+    .top{
+      margin: 0px;
+      border-radius: 3px 3px 0 0;
+      -webkit-border-radius: 3px 3px 0 0;
+      -moz-border-radius: 3px 3px 0 0;background-color: #375d80;
+      height:37px;
+      overflow: hidden;
+
+      p.month{
+        margin: 0px;
+        padding: 0;
+        color: #fdfffe;
+        font-weight: 900;
+        text-align: center;
+        line-height: 37px;
+        font-size: 20px;
+      }
+    }
+    .bottom{
+      height: 90px;
+      overflow: hidden;
+
+      p.date{
+        margin: 10px 0 0 0;
+        padding: 0;
+        color: #1da2e6;
+        font-weight: 900;
+        text-align: center;
+        line-height: 62px;
+        font-size: 60px;
+      }
+    }
+  }
+
+  .formholder {
+    padding: 15px 25px;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .3);
+
+    p {
+      text-align: center;
+    }    
+  }
+}
+
+#features {
+  border-top: dashed 4px #eee;
+  padding: 40px;
+
+  margin: 40px 0;
+
+  table {
+    /*max-width: 750px;*/
+    /*margin: auto;*/
+  }
+
+  td {
+    @include default-font;
+    padding: 10px;
+  }
+}
+
+#cta {
+  padding: 100px 0;
+  background: #fafafa;
+}

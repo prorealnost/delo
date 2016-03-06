@@ -1,0 +1,102 @@
+---
+layout: base
+---
+
+<link rel="stylesheet" type="text/css" href="/listbuilder-webinar.css" />
+
+<section id="hero">
+  <div class="container">
+    <div class="host">
+      <img src="/images/host.jpg">
+      <p class="title">Вебинар ведёт</p>
+      <p class="name">Николай Воробьёв</p>
+    </div>
+    <h1 class="subheadline">Бесплатный вебинар</h1>
+    <h1 class="primary">{{ page.title }}</h1>
+    <p class="lead">
+      помогу выбрать дело жизни, которое сделает тебя счастливым
+    </p>
+  </div>
+</section>
+
+<section id="main">
+  <div class="container">
+    <div class="col-sm-6">
+      <div class="left">
+        <p class="date">Начало 10 марта в 20:00 мск</p>
+        <div class="dateholder">
+          <div class="top">
+            <p class="month">Март</p>
+          </div>
+          <div class="bottom">
+            <p class="date">10</p>
+          </div>
+        </div>
+        <p class="length">Продолжительность 1 час</p>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="formholder">
+        <p>Заполни форму чтобы забронировать место на&nbsp;вебинаре «{{ page.title }}»</p>
+        <form action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
+          <div class="form-group">
+            <input type="text" id="name-input" name="name" class="form-control" placeholder="Имя" required="required"/>
+          </div>
+          <div class="form-group">
+            <input type="text" name="phone" rules="phone" class="form-control" placeholder="Телефон" required="required"/>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" class="form-control" placeholder="Емейл" required="required"/>
+          </div>
+          <button type="submit" class="btn btn-warning btn-lg btn-block">Забронируйте мне место &rarr;</button>
+          <!--input type="hidden" name="mailchimp-product-interest-id" value="cb30125b8e" /-->
+          <input type="hidden" name="redirect" value="http://soedinennost.com/tdc/" />
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="container">
+    <table>
+      <tr>
+        <td class="img"><img src="/images/bulletimage1.png" /></td>
+        <td class="text">Твоя жизнь наполнится смыслом</td>
+      </tr>
+      <tr>
+        <td class="img"><img src="/images/bulletimage2.png" /></td>
+        <td class="text">Ты будешь бодро вставать по утрам</td>
+      </tr>
+      <tr>
+        <td class="img"><img src="/images/bulletimage3.png" /></td>
+        <td class="text">Ты станешь вдохновлённым и счастливым</td>
+      </tr>
+      <tr>
+        <td class="img"><img src="/images/bulletimage4.png" /></td>
+        <td class="text">Каждое твоё действие будет направлено на осуществление твоей мечты</td>
+      </tr>
+      <tr>
+        <td class="img"><img src="/images/bulletimage5.png" /></td>
+        <td class="text">За следующие 6 месяцев ты сделаешь больше, чем за весь прошлый год</td>
+      </tr>
+      <tr>
+        <td class="img"><img src="/images/bulletimage6.png" /></td>
+        <td class="text">Ты изменишь свою жизнь и будешь с гордостью рассказывать о своих достижениях</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<section id="cta">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-8">
+        <p>Записывайся на вебинар и начинай менять свою жизнь к лучшему уже сегодня</p>
+      </div>
+      <div class="col-xs-4">
+        <button class="btn btn-success btn-lg btn-block" onclick="document.getElementById('name-input').focus(); return false;">Записаться &rarr;</button>
+      </div>
+    </div>
+  </div>
+</section>

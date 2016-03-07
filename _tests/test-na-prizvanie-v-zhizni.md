@@ -1,4 +1,4 @@
 ---
-title: "Тест на&nbsp;призвание в&nbsp;жизни"
+title: "Призвание в&nbsp;жизни"
 slug: test-na-prizvanie-v-zhizni
 ---

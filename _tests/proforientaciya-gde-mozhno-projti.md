@@ -1,4 +1,4 @@
 ---
-title: "Профориентация где можно пройти"
+title: "Профориентация"
 slug: proforientaciya-gde-mozhno-projti
 ---

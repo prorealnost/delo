@@ -1,4 +1,4 @@
 ---
-title: "Тест «Профориентация онлайн»"
+title: "Профориентация онлайн"
 slug: test-proforientaciya-onlajn
 ---

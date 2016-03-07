@@ -1,4 +1,4 @@
 ---
 title: "Профориентация Онлайн"
-slug: projti-proforientaciyu-v-moskve
+slug: gde-projti-proforientaciyu-v-moskve
 ---

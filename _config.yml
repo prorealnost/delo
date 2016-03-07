@@ -11,6 +11,9 @@ collections:
   webinars:
     output: true
     permalink: /webinar/:path/
+  tests:
+    output: true
+    permalink: /test/:path/
 
 defaults:
   - scope:
@@ -18,3 +21,8 @@ defaults:
       type: webinars
     values:
       layout: listbuilder-webinar
+  - scope:
+      path: ""
+      type: tests
+    values:
+      layout: listbuilder-test

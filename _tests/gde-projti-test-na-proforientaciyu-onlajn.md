@@ -1,4 +1,4 @@
 ---
-title: "Где пройти тест на&nbsp;профориентацию? Онлайн!"
+title: "Профориентация Онлайн"
 slug: gde-projti-test-na-proforientaciyu-onlajn
 ---

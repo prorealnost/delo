@@ -1,4 +1,4 @@
 ---
-title: "Пройти тестирование на&nbsp;профориентацию"
+title: "Профориентация"
 slug: projti-testirovanie-na-proforientaciyu
 ---

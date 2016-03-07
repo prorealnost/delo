@@ -1,0 +1,43 @@
+@import "lb";
+
+#main {
+  .dateholder {
+    width: 123px;
+    height: 127px;
+    background: url('/images/calendar-bg.png') left bottom no-repeat;
+    margin: auto;
+
+    .top{
+      margin: 0px;
+      border-radius: 3px 3px 0 0;
+      -webkit-border-radius: 3px 3px 0 0;
+      -moz-border-radius: 3px 3px 0 0;background-color: #375d80;
+      height:37px;
+      overflow: hidden;
+
+      p.month{
+        margin: 0px;
+        padding: 0;
+        color: #fdfffe;
+        font-weight: 900;
+        text-align: center;
+        line-height: 37px;
+        font-size: 20px;
+      }
+    }
+    .bottom{
+      height: 90px;
+      overflow: hidden;
+
+      p.date{
+        margin: 10px 0 0 0;
+        padding: 0;
+        color: #1da2e6;
+        font-weight: 900;
+        text-align: center;
+        line-height: 62px;
+        font-size: 60px;
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
 ---
-title: "Где пройти профориентацию"
+title: "Профориентация Онлайн"
 slug: gde-projti-proforientaciyu
 ---

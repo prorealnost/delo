@@ -39,8 +39,8 @@ proforientaciya-onlajn
 test-proforientaciya-onlajn
 test-najti-svoe-prednaznachenie
 gde-projti-proforientaciyu
-gde-projti-proforientaciyu-v-moskve-onlajn
-gde-projti-proforientaciyu-v-spb-onlajn
+gde-projti-proforientaciyu-v-moskve
+gde-projti-proforientaciyu-v-spb
 gde-projti-test-na-proforientaciyu-onlajn
 test-kak-ponyat-svoe-prednaznachenie-v-zhizni
 test-kak-najti-svoe-prednaznachenie-v-zhizni

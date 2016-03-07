@@ -2,49 +2,38 @@
 layout: base
 ---
 
-<link rel="stylesheet" type="text/css" href="/lb-webinar.css" />
+<link rel="stylesheet" type="text/css" href="/lb-test.css" />
 
 <section id="hero">
   <div class="container">
     <div class="host">
       <img src="/images/host.jpg">
-      <p class="title">Вебинар ведёт</p>
+      <p class="title">Автор теста</p>
       <p class="name">Николай Воробьёв</p>
     </div>
-    <h1 class="subheadline">Бесплатный вебинар</h1>
+    <h1 class="subheadline">БЕСПЛАТНО Пройди тест</h1>
     <h1 class="primary">{{ page.title }}</h1>
     <p class="lead">
-      помогу выбрать дело жизни, которое сделает тебя счастливым
+      поможет выбрать дело жизни, которое сделает тебя счастливым
     </p>
   </div>
 </section>
 
 <section id="main">
   <div class="container">
-    <div class="col-sm-6">
-      <div class="left">
-        <p class="date">Начало 10 марта в 20:00 мск</p>
-        <div class="dateholder">
-          <div class="top">
-            <p class="month">Март</p>
-          </div>
-          <div class="bottom">
-            <p class="date">10</p>
-          </div>
-        </div>
-        <p class="length">Продолжительность 1 час</p>
-      </div>
+    <div class="col-xs-6 col-lg-4">
+      <img src="/images/test.jpg" class="img-responsive"/>
     </div>
-    <div class="col-sm-6">
+    <div class="col-xs-6 col-lg-8">
       <div class="formholder">
-        <p>Заполни форму чтобы забронировать место на&nbsp;вебинаре «{{ page.title }}»</p>
+        <p>Заполни форму чтобы записаться на&nbsp;тест «{{ page.title }}»</p>
         <form action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
           <div class="form-group">
             <input type="email" name="email" class="form-control" placeholder="Емейл" required="required"/>
           </div>
-          <button type="submit" class="btn btn-warning btn-lg btn-block">Забронируйте мне место &rarr;</button>
+          <button type="submit" class="btn btn-warning btn-lg btn-block">Записаться &rarr;</button>
           <!--input type="hidden" name="mailchimp-product-interest-id" value="cb30125b8e" /-->
-          <input type="hidden" name="redirect" value="http://delo.soedinennost.com/webinar-ok/" />
+          <input type="hidden" name="redirect" value="http://delo.soedinennost.com/test-ok/" />
         </form>
       </div>
     </div>

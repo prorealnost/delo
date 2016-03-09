@@ -22,7 +22,7 @@ layout: base
 <section id="main">
   <div class="container">
     <div class="col-sm-6">
-      <div class="left">
+      <div class="left text-center">
         <p class="date">Начало 10 марта в 20:00 мск</p>
         <div class="dateholder">
           <div class="top">
@@ -40,10 +40,11 @@ layout: base
         <p>Заполни форму чтобы забронировать место на&nbsp;вебинаре «{{ page.title }}»</p>
         <form action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
           <div class="form-group">
-            <input type="email" name="email" class="form-control" placeholder="Емейл" required="required"/>
+            <input type="email" name="email" class="form-control" placeholder="Введи сюда свою электронную почту" required="required"/>
           </div>
           <button type="submit" class="btn btn-warning btn-lg btn-block">Забронируйте мне место &rarr;</button>
           <!--input type="hidden" name="mailchimp-product-interest-id" value="cb30125b8e" /-->
+          <input type="hidden" name="trello-list-id" value="56dfc41274970b0f2c8b002b" />
           <input type="hidden" name="redirect" value="http://delo.soedinennost.com/webinar-ok/" />
         </form>
       </div>

@@ -1,0 +1,14 @@
+@import "lb";
+
+#main {
+  .features {
+    td {
+      @include default-font;
+      padding: 10px;
+    }
+  }
+
+  .formholder {
+    margin-top: 20px;
+  }
+}

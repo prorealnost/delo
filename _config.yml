@@ -21,7 +21,7 @@ defaults:
       path: ""
       type: webinars
     values:
-      layout: listbuilder-webinar
+      layout: listbuilder-webinar-rec
   - scope:
       path: ""
       type: tests

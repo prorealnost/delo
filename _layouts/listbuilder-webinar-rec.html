@@ -1,0 +1,67 @@
+---
+layout: base
+---
+
+<link rel="stylesheet" type="text/css" href="/lb-webinar-rec.css" />
+
+<section id="hero">
+  <div class="container">
+    <div class="host">
+      <img src="/images/host.jpg">
+      <p class="title">Вебинар ведёт</p>
+      <p class="name">Николай Воробьёв</p>
+    </div>
+    <h1 class="subheadline">Бесплатный вебинар</h1>
+    <h1 class="primary">{{ page.title }}</h1>
+    <p class="lead">
+      помогу выбрать дело жизни, которое сделает тебя счастливым
+    </p>
+  </div>
+</section>
+
+<section id="main">
+  <div class="container">
+    <div class="col-md-6">
+      <table class="features">
+        <tr>
+          <td class="img"><img src="/images/bulletimage1.png" /></td>
+          <td class="text">Твоя жизнь наполнится смыслом</td>
+        </tr>
+        <tr>
+          <td class="img"><img src="/images/bulletimage2.png" /></td>
+          <td class="text">Ты будешь бодро вставать по утрам</td>
+        </tr>
+        <tr>
+          <td class="img"><img src="/images/bulletimage3.png" /></td>
+          <td class="text">Ты станешь вдохновлённым и счастливым</td>
+        </tr>
+        <tr>
+          <td class="img"><img src="/images/bulletimage4.png" /></td>
+          <td class="text">Каждое твоё действие будет направлено на осуществление твоей мечты</td>
+        </tr>
+        <tr>
+          <td class="img"><img src="/images/bulletimage5.png" /></td>
+          <td class="text">За следующие 6 месяцев ты сделаешь больше, чем за весь прошлый год</td>
+        </tr>
+        <tr>
+          <td class="img"><img src="/images/bulletimage6.png" /></td>
+          <td class="text">Ты изменишь свою жизнь и будешь с гордостью рассказывать о своих достижениях</td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-md-6">
+      <div class="formholder">
+        <p>Заполни форму чтобы получить запись вебинара «{{ page.title }}»</p>
+        <form action="http://z.prorealnost.com/order_and_redirect.php" method="POST">
+          <div class="form-group">
+            <input type="email" name="email" class="form-control" placeholder="Введи сюда свою электронную почту" required="required"/>
+          </div>
+          <button type="submit" class="btn btn-warning btn-lg btn-block"><span>Получить запись вебинара &rarr;</span></button>
+          <input type="hidden" name="mailchimp-product-interest-id" value="fbf8e347bf" />
+          <input type="hidden" name="trello-list-id" value="56dfc41274970b0f2c8b002b" />
+          <input type="hidden" name="redirect" value="http://delo.soedinennost.com/webinar-ok/" />
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

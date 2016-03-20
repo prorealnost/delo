@@ -70,3 +70,7 @@ section.pagetitle {
     font-weight: 900;
   }
 }
+
+.btn-block {
+  white-space: normal; // чтобы работал перенос текста
+}
